@@ -25061,4 +25061,17 @@ ul {
   border: medium none;
   padding: 50px 35px 50px;
 }
+.header__right--item .menu__trigger {
+  cursor: pointer;
+  display: block;
+}
+#side-bar .mobile-menu-main {
+  display: block;
+}
+  }
+  @media screen and (max-width: 1200px){
+    .header__right--item .menu__trigger {
+      cursor: pointer;
+      display: block;
+    }
   }
