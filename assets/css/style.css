@@ -17002,10 +17002,13 @@ font-size: 31px;
   }
     .banner_imagemobile{
       background-image: url("../karmic-Mobile-480x987.jpg");
-      height: 95vh !important;
+      height: 100vh !important;
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
+    }
+    .gsy{
+      margin-top: 13px !important;
     }
 .banner_image {
   display: none;
