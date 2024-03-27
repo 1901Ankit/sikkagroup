@@ -17007,6 +17007,9 @@ font-size: 31px;
       background-repeat: no-repeat;
       background-size: cover;
     }
+    .rts-history-image {
+height: 100% !important;
+    }
     .gsy{
       margin-top: 13px !important;
     }
