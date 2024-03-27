@@ -328,12 +328,31 @@ p {
   .navbimages{
     width: 40% !important;
   }
+  .jska{
+    width: 100% !important;
+  }
+  .togglefq {
+padding: 14px 14px !important;
+  }
+  .accrodn {
+padding: 0px !important;
+  }
+  .default-padding {
+padding-bottom: 0px !important;
+  }
+  .huas{
+    margin-top: -50px !important;
+  }
   .ped{
     text-align: start !important;
+    margin: 0 0 20px !important;
     font-size: 15px !important;
+    line-height: 25px !important;
+    /* font-weight: 600px !important; */
+    color: #737477 !important;
   }
   .copy{
-    font-size: 14px;
+    font-size: 12px;
   }
   p {
     margin: 0 0 20px;
@@ -14937,10 +14956,10 @@ xclip
 }
 
 .rts-section-padding {
-  padding: 80px 0;
+  padding: 70px 0;
 }
 .rtes-section-padding {
-  padding: 80px 0 50px 0;
+  padding: 70px 0 50px 0;
 }
 @media screen and (max-width: 992px) {
   .rts-section-padding {
@@ -14949,7 +14968,7 @@ xclip
 }
 @media screen and (max-width: 768px) {
   .rts-section-padding {
-    padding: 60px 0;
+    padding: 0px 0 !important;
   }
 }
 
@@ -17001,8 +17020,8 @@ font-size: 31px;
     font-size: 18px;
   }
     .banner_imagemobile{
-      background-image: url("../karmic-Mobile-480x987.jpg");
-      height: 100vh !important;
+      background-image: url("../../assets/Mobile.jpg");
+      height: 84vh !important;
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -21029,73 +21048,10 @@ height: 100% !important;
   font-size: 26px;
   margin-bottom: 10px;
 }
-.rts-program .program-accordion {
-  margin-bottom: 60px;
-}
-.rts-program .program-accordion .accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.rts-program .program-accordion .accordion .accordion-item {
-  border: none;
-}
-.rts-program .program-accordion .accordion .accordion-button {
-  font-size: 20px;
-  font-family: var(--font-secondary);
-  color: var(--rt-secondary);
-  padding: 17px 20px;
-  line-height: 100%;
-  border: 1px solid var(--rt-line);
-}
-.rts-program .program-accordion .accordion .accordion-button:focus {
-  box-shadow: none;
-}
-.rts-program .program-accordion .accordion .accordion-button:not(.collapsed) {
-  box-shadow: none;
-  background: transparent;
-}
-.rts-program .program-accordion .accordion .accordion-button::after {
-  content: "+";
-  background-image: none;
-  font-family: var(--fontawesome);
-  height: 24px;
-  width: 24px;
-  border: 1px solid var(--rt-secondary);
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-.rts-program .program-accordion .accordion .accordion-button:not(.collapsed)::after {
-  content: "\f068";
-  font-family: var(--fontawesome);
-  background-image: none;
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table {
-  margin-top: 20px;
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table-theme {
-  background: var(--rt-primary);
-  color: var(--rt-white);
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table-theme td {
-  padding: 12px;
-  font-weight: 600;
-  font-size: 18px;
-  font-family: var(--font-secondary);
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table tbody {
-  border: 1px solid var(--rt-line);
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table tbody tr {
-  border-bottom: 1px solid var(--rt-line);
-}
-.rts-program .program-accordion .accordion .accordion-body-content .table tbody tr td {
-  padding: 12px;
-  color: var(--rt-body);
-}
+
+
+
+
 .rts-program .program-student-testimonial {
   padding-bottom: 40px;
 }
@@ -21153,78 +21109,9 @@ height: 100% !important;
   height: 55px;
 }
 
-.program-accordion {
-  margin-bottom: 60px;
-}
-.program-accordion .accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.program-accordion .accordion .accordion-item {
-  border: none;
-}
-.program-accordion .accordion .accordion-button {
-  font-size: 20px;
-  font-family: var(--font-secondary);
-  color: var(--rt-secondary);
-  padding: 17px 20px;
-  line-height: 100%;
-  border: 1px solid var(--rt-primary-2);
-}
-.program-accordion .accordion .accordion-button:focus {
-  box-shadow: none;
-}
-.program-accordion .accordion .accordion-button:not(.collapsed) {
-  box-shadow: none;
-  background: transparent;
-}
-.program-accordion .accordion .accordion-button::after {
-  content: "+";
-  background-image: none;
-  font-family: var(--fontawesome);
-  height: 24px;
-  width: 24px;
-  border: 1px solid var(--rt-secondary);
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-.program-accordion .accordion .accordion-button:not(.collapsed)::after {
-  content: "\f068";
-  font-family: var(--fontawesome);
-  background-image: none;
-}
-.program-accordion .accordion .accordion-body-content .table {
-  margin-top: 20px;
-}
-.program-accordion .accordion .accordion-body-content .table-theme {
-  background: var(--rt-primary);
-  color: var(--rt-white);
-}
-.program-accordion .accordion .accordion-body-content .table-theme tr th {
-  padding: 12px;
-  font-family: var(--font-secondary);
-  font-weight: 400;
-}
-.program-accordion .accordion .accordion-body-content .table-theme td {
-  padding: 12px;
-  font-weight: 600;
-  font-size: 18px;
-  font-family: var(--font-secondary);
-}
-.program-accordion .accordion .accordion-body-content .table tbody {
-  border: 1px solid var(--rt-line);
-}
-.program-accordion .accordion .accordion-body-content .table tbody tr {
-  border-bottom: 1px solid var(--rt-line);
-}
-.program-accordion .accordion .accordion-body-content .table tbody tr td {
-  padding: 12px;
-  color: var(--rt-body);
-}
+
+
+
 
 .rts-scholarship-description .program-about {
   margin-top: 40px;
@@ -21349,14 +21236,7 @@ height: 100% !important;
 .rts-scholarship-description .faq .title {
   margin-bottom: 35px;
 }
-.rts-scholarship-description .faq .program-accordion .accordion-button[aria-expanded=true] {
-  background: var(--rt-primary);
-  color: var(--rt-white);
-  border-color: var(--rt-primary);
-}
-.rts-scholarship-description .faq .program-accordion .accordion-button[aria-expanded=true]::after {
-  border-color: var(--rt-white);
-}
+
 .rts-scholarship-description .scholarship-form .title {
   margin-bottom: 20px;
 }
@@ -24391,7 +24271,7 @@ height: 100% !important;
 .top-entry-area .item ul li {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   border-top: 1px dashed #cccccc;
   margin-top: 10px;
   padding-top: 15px;
@@ -24729,7 +24609,7 @@ height: 100% !important;
 }
 
 .banner_image {
-  background-image: url("../karmic-Web-Banner-1920x950.jpg");
+  background-image: url("../../assets/Web-Banner.jpg");
   height: 100vh;
   background-position:center;
   background-repeat: no-repeat;
@@ -24911,101 +24791,28 @@ ul {
   height: 15px;
 }
 
-/* faq */
 
-.accordion {
-  display: flex;
-  flex-direction: column;
-  font-family: "Sora", sans-serif;
-  max-width: 991px;
-  min-width: 320px;
-  margin: 50px auto;
-  padding: 0 50px;
-}
-.accordion h1 {
-  font-size: 32px;
-  text-align: center;
-}
-.accordion-item {
-  margin-top: 16px;
-  border: 1px solid #fcfcfc;
-  border-radius: 6px;
-  background: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-}
-.accordion-item .accordion-item-title {
-  position: relative;
-  margin: 0;
-  display: flex;
-  width: 100%;
-  font-size: 15px;
-  cursor: pointer;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  padding: 14px 20px;
-  box-sizing: border-box;
-  align-items: center;
-}
-
-.accordion-item .accordion-item-desc {
-  display: none;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 300;
-  color: #444;
-  border-top: 1px dashed #ddd;
-  padding: 10px 20px 20px;
-  box-sizing: border-box;
-}
-.accordion-item input[type="checkbox"] {
-  position: absolute;
-  height: 0;
-  width: 0;
-  opacity: 0;
-}
-.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
-  display: block;
-}
-.accordion-item
-  input[type="checkbox"]:checked
-  ~ .accordion-item-title
-  .icon:after {
-  content: "-";
-  font-size: 20px;
-}
-.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
-  content: "+";
-  font-size: 20px;
-}
-.accordion-item:first-child {
-  margin-top: 0;
-}
-.accordion-item .icon {
-  margin-left: 14px;
-}
-
-@media screen and (max-width: 767px) {
-  .accordion {
-      padding: 0 16px;
-  }
-  .accordion h1 {
-      font-size: 22px;
-  }
-}
 .header__sticky.fixed .header__right--item .menu__trigger img {
   filter: invert(100);
 }
 
 
-
-
+/* faq */
+.accrodn{
+  display: flex;
+  flex-direction: column;
+  font-family: "Sora", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px ;
+  margin: 20px auto;
+  padding: 0 0px;
+}
 .wrapperfaq {
   background-color: #ffffff;
-  padding: 10px 20px;
+  padding: 0px 0px;
   margin-bottom: 20px;
   border-radius: 5px;
-  /* -webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2); */
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  color: #737477;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 1px 0px ;
 }
 
 .togglefq,
@@ -25016,26 +24823,27 @@ ul {
 .togglefq {
   width: 100%;
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  /* -webkit-box-align: center;
-  -ms-flex-align: center; */
-  /* align-items: center; */
-  /* -webkit-box-pack: justify; */
-  /* -ms-flex-pack: justify; */
   justify-content: space-between;
   font-size: 16px;
-  color: #737477 !important;
-  font-weight: 400;
+  color: #737477 ;
+  font-weight: 600;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10px 0;
+  padding: 25px 25px;
 }
+.jska{
+  width: 50% ;
+}
+.contentfq.expanded {
+  background-color: green;
+}
+
 .contentfq {
   position: relative;
   font-size: 14px;
+  color: #737477;
   text-align: justify;
   line-height: 30px;
   height: 0;
@@ -25043,8 +24851,10 @@ ul {
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+  
 }
 
+/* end faq */
 
   /* ipad pro landscape */
   @media screen and (min-width: 1366px) and (min-height: 1024px) {
@@ -25074,4 +24884,8 @@ ul {
       cursor: pointer;
       display: block;
     }
+  }
+  
+  .rts-application-form-content {
+height: 65vh;
   }
