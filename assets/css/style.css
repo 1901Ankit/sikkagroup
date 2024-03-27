@@ -17,9 +17,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
 :root {
   --rt-theme: #09A24F;
-  --rt-primary: #446e18;
-  --rt-primary-1: #446e18;
-  --rt-primary-2: #446e18;
+  --rt-primary: #3071a1;
+  --rt-primary-1: #3071a1;
+  --rt-primary-2: #3071a1;
   --rt-secondary: #110C2D;
   --rt-footer: #181818;
   --rt-body: #737477;
@@ -24514,13 +24514,13 @@ height: 100% !important;
 }
 
 .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-  background: #00a01d none repeat scroll 0 0;
-  border-color: #00a01d;
+  background: #3071a1 none repeat scroll 0 0;
+  border-color: #3071a1;
 }
 
 .we-offer-area .itemmeid {
   background: #ffffff none repeat scroll 0 0;
-  border-left: 2px solid #00a01d;
+  border-left: 2px solid #3071a1;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
@@ -24559,7 +24559,7 @@ height: 100% !important;
 }
 
 .we-offer-area.text-center .itemmeid i::after {
-  border: 2px solid #446e18;
+  border: 2px solid #3071a1;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -24610,7 +24610,7 @@ height: 100% !important;
 }
 
 .we-offer-area .itemmeid i {
-  color: #446e18 !important;
+  color: #3071a1 !important;
   display: inline-block;
   font-size: 60px;
   margin-bottom: 20px;
@@ -24642,7 +24642,7 @@ height: 100% !important;
 }
 
 .we-offer-area .itemmeid::after {
-  background: #446e18 none repeat scroll 0 0;
+  background: #3071a1 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
@@ -24673,7 +24673,7 @@ height: 100% !important;
 
 .we-offer-area.text-center .itemmeid:hover i {
   background-color: #ffffff !important;
-  color: #446e18 !important;
+  color: #3071a1 !important;
 }
 
 .we-offer-area.text-left .itemmeid i {
