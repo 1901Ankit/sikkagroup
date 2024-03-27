@@ -25044,3 +25044,21 @@ ul {
   -o-transition: all 1s;
   transition: all 1s;
 }
+
+
+  /* ipad pro landscape */
+  @media screen and (min-width: 1366px) and (min-height: 1024px) {
+    .header.v__1 .container-fluid {
+      padding: 0px 64px 0 ;
+    }
+  }
+  @media screen and  (min-width: 1024px) and (min-height:1366px){
+ .banner_image{
+  height: 50vh;
+ }
+ .we-offer-area.text-center .itemmeid {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  padding: 50px 35px 50px;
+}
+  }
