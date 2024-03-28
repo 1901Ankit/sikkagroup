@@ -17030,7 +17030,7 @@ font-size: 31px;
   }
     .banner_imagemobile{
       background-image: url("../../assets/Mobile.jpg");
-      height: 100vh !important;
+      height: 80vh !important;
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
