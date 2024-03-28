@@ -328,6 +328,14 @@ p {
   .navbimages{
     width: 40% !important;
   }
+  .hujikl{
+    height: 413px !important;
+    padding: 0px !important;
+  }
+  .hujiklo{
+    height: 413px !important;
+    padding: 0px !important;
+  }
   .jska{
     width: 100% !important;
   }
@@ -24888,4 +24896,38 @@ ul {
   
   .rts-application-form-content {
 height: 65vh;
+  }
+
+  .hujikl{
+height: 585px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* padding: 50px 50px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .hujiklo{
+height: 515px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* padding: 50px 50px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .pece{
+
+    font-size: 14px;
+    line-height: var(--line-height-b2);
+    font-weight: 600;
+    padding: 10px;
+    color: #fff;
+    margin: 0 auto 20px ;
+    font-family: var(--font-primary);
+  }
+  .imgkrmi{
+    height: 100% !important; 
+  }
+  .card-header{
+background-color: #0077B5 !important;
   }
