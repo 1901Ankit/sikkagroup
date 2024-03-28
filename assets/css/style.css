@@ -15889,7 +15889,7 @@ xclip
   color: var(--rt-white);
 }
 .tution__single--box--title {
-  font-size: 26px;
+  font-size: 35px;
   margin-bottom: 50px;
 }
 .tution__single--box--faculty {
@@ -15917,7 +15917,7 @@ xclip
 }
 .tution__single--box--feature li::before {
   position: absolute;
-  left: -20px;
+  left: -26px;
   top: 0;
   content: "\f00c";
   font-family: var(--fontawesome);
@@ -17021,7 +17021,7 @@ font-size: 31px;
   }
     .banner_imagemobile{
       background-image: url("../../assets/Mobile.jpg");
-      height: 84vh !important;
+      height: 77vh !important;
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
