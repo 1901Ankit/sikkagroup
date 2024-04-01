@@ -614,7 +614,7 @@
                                 </div>
                                 <div class="text-center">
                                     <button onclick="sendCase()" type="submit"
-                                        class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">CONNECT <span><i
+                                        class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">APPLY NOW <span><i
                                                 class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
                                 </div>
                             </form>
@@ -886,42 +886,53 @@
         observer.observe(section);
     </script>
 
-    <script>
-        // emailjs
-        function sendCase() {
-            let firstname = document.getElementById("firstname").value;
-            let lastname = document.getElementById("lastname").value;
-            let address = document.getElementById("address").value;
-            let country = document.getElementById("country").value;
-            let email = document.getElementById("email").value;
-            let mobile = document.getElementById("mobile").value;
-            let message = document.getElementById("message").value;
-
-            emailjs.init("fSjEBmQ1V-58CY5U6");
-            let params = {
-                firstname: firstname,
-                lastname: lastname,
-                address: address,
-                email: email,
-                mobile: mobile,
-                message: message
-            };
-            let serviceID = "service_sp6umke";
-            let templateID = "template_dyzdswg";
-
-            emailjs.send(serviceID, templateID, params)
-                .then(function (response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                    alert("Email sent successfully!");
-                    document.getElementById("emailForm").reset();
-                })
-                .catch(function (error) {
-                    console.log('FAILED...', error);
-                    alert("Error sending email. Please try again later.");
-                });
+<script>
+    function sendCase() {
+        let firstname = document.getElementById("firstname").value;
+        let lastname = document.getElementById("lastname").value;
+        let email = document.getElementById("email").value;
+        let mobile = document.getElementById("mobile").value;
+        let message = document.getElementById("message").value;
+        // Regular expressions for validation
+        let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        let mobileRegex = /^\d{10}$/;
+        // Validate each field
+        if (firstname === "" || lastname === "" || email === "" || mobile === "" ||  message === "") {
+            alert("Please fill in all fields.");
+            return;
         }
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+        if (!mobileRegex.test(mobile)) {
+            alert("Please enter a valid 10-digit mobile number.");
+            return;
+        }
+        emailjs.init("m1feBx_DdRLLSv5N0");
+        let params = {
+            firstname: firstname,
+            lastname: lastname,
+            email: email,
+            mobile: mobile,
+            message: message,
+            
+        };
+        let serviceID = "service_uf8trek";
+        let templateID = "template_156k66u";
 
-    </script>
+        emailjs.send(serviceID, templateID, params)
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert("Email sent successfully!");
+                document.getElementById("emailForm").reset();
+            })
+            .catch(function (error) {
+                console.log('FAILED...', error);
+                alert("Error sending email. Please try again later.");
+            });
+    }
+</script>
     <script>
         //faq[
         let toggles = document.getElementsByClassName("togglefq");
