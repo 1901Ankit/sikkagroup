@@ -328,6 +328,12 @@ p {
   .navbimages{
     width: 40% !important;
   }
+  .thnw{
+    font-size: 24px !important;
+  }
+  .thnw1{
+    font-size: 22px !important;
+  }
   .hujikl{
     height: 413px !important;
     padding: 0px !important;
@@ -17029,7 +17035,7 @@ font-size: 31px;
     font-size: 18px;
   }
     .banner_imagemobile{
-      background-image: url("../../assets/Mobile.jpg");
+      background-image: url("../../assets/photos/Mobile.jpg");
       height: 80vh !important;
       background-position:center;
       background-repeat: no-repeat;
@@ -20065,7 +20071,7 @@ height: 100% !important;
 }
 @media screen and (max-width: 992px) {
   .rts-campus.mobile-padding {
-    padding-bottom: 100px;
+    padding-bottom: 35px;
   }
 }
 .rts-campus .rt-shape {
@@ -24147,7 +24153,7 @@ height: 100% !important;
   justify-content: center;
   margin-left: 14px;
   margin-top: -53px;
-  font-size: 27px;
+  font-size: 20px;
   background: var(--rt-primary-2);
 }
 
@@ -24618,7 +24624,7 @@ height: 100% !important;
 }
 
 .banner_image {
-  background-image: url("../../assets/Web-Banner.jpg");
+  background-image: url("../../assets/photos/Web-Banner.jpg");
   height: 100vh;
   background-position:center;
   background-repeat: no-repeat;
@@ -24896,7 +24902,7 @@ ul {
   }
   
   .rts-application-form-content {
-height: 65vh;
+/* height: 55vh; */
   }
 
   .hujikl{
@@ -24932,3 +24938,14 @@ height: 515px;
   .card-header{
 background-color: #0077B5 !important;
   }
+  
+
+  /* thnqyou */
+.thnw{
+  font-size:55px;
+  font-weight: 500;
+}
+.thnw1{
+  font-size:35px;
+  font-weight: 500;
+}
